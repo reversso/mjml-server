@@ -47,7 +47,7 @@ A list of available configuration options can be found in
 
 ## Runtime security updates
 
-The Docker image and CI use Node.js 24.22.1. `npm ci` keeps application
+The Docker image and CI use Node.js 26.12.1. `npm ci` keeps application
 packages at the versions in `package-lock.json` during a runtime update.
 
 Build ARM64 with `docker build --pull --platform linux/arm64 -t IMAGE:TAG .`.
